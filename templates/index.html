@@ -1,11 +1,17 @@
 {% extends 'base.html' %}
 
-{% block head %} 
+{% block title %}Home Page{% endblock %}
 
-<title>Home page</title>
+{% block content %}
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-{% endblock %} 
-
-{% block body %} 
-
+    <div id="main-info" style="text-align: center;">
+        
+    </div>
 {% endblock %}
